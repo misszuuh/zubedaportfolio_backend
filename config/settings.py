@@ -59,7 +59,7 @@ MIDDLEWARE = [
 # CORS settings
 CORS_ALLOWED_ORIGINS = config(
     'CORS_ALLOWED_ORIGINS',
-    default='https://apizuuhportfolio.deploy.tz',
+    default='http://localhost:5173',
     cast=Csv()
 )
 
