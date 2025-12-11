@@ -59,7 +59,7 @@ MIDDLEWARE = [
 # CORS settings
 CORS_ALLOWED_ORIGINS = config(
     'CORS_ALLOWED_ORIGINS',
-    default='https://zubedanurdin.deploy.tz',
+    default='https://zubedaportfolioweb.deploy.tz',
     cast=Csv()
 )
 
