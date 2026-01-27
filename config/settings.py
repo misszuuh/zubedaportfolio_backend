@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-ar0etm%5_@c1s8%=0bsn7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='apizuuhportfolio.deploy.tz', cast=Csv())
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='apizuuhportfolio.deploy.tz,127.0.0.1', cast=Csv())
 
 
 # Application definition
